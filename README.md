@@ -1,28 +1,24 @@
-# De Limburgse norm
+# Limburgse Norm — Samen weerbaar
 
-Nederlandstalige, responsieve kennisbank op basis van de aangeleverde inhoud. Gebouwd met Vite en vanilla JavaScript.
-
-## Ontwikkelen
-
-Gebruik Node.js 22.12+ of 24.
-
-```sh
-npm ci
-npm run dev
-```
-
-## Controle en productie
-
-```sh
-npm test
-npm run build
-npm run preview
-```
-
-`dist/` bevat de statische productieversie. De navigatie gebruikt hash-routes, zodat geen server-side routeherschrijving nodig is.
+Broncode van gepubliceerde versie 5.
+Broncommit: d001e9b64671dfdbbf3550c62b55eaa481f7bca4
 
 ## Inhoud
 
-Home, Handreiking, Checklist, Productenoverzicht en Contact, met zes thema’s en lokale zoekfunctie. `/public/werkchecklist.csv` is een eigen werkdocument, geen officiële normchecklist. Productnamen, contactgegevens en de namen van de drie tussenliggende piramideniveaus zijn niet aangeleverd; deze worden niet als feiten gepresenteerd. Stem de inhoud vóór publicatie af met de inhoudelijk verantwoordelijke. De Limburgillustratie is schematisch.
+- dist/: de volledige statische website: HTML, CSS, JavaScript, inhoud, afbeeldingen en lettertypen.
+- .openai/hosting.json: oorspronkelijke Sites-hostingconfiguratie.
+- collect.py en source-report.json: oorspronkelijke importhulp en inhoudsoverzicht. Niet nodig om de website te draaien. De importhulp bevat een oorspronkelijk lokaal pad; pas dat aan vóór gebruik.
 
-Geen backend of persoonsgegevensverwerking. Google Fonts is optioneel; zonder externe verbinding worden de lokale systeemlettertypen gebruikt.
+## Lokaal bekijken
+
+Voer vanuit de uitgepakte map uit:
+
+    python3 -m http.server 8000 --directory dist
+
+Open http://localhost:8000 in je browser.
+Er zijn geen installatie- of bouwstappen nodig. Gebruik een lokale webserver: JavaScript laadt de inhoud uit content.json.
+
+## Aanpassen en hosten
+
+Bewerk dist/styles.css voor de vormgeving, dist/app.js voor de opbouw en interacties en dist/content.json voor de pagina-inhoud. Afbeeldingen en lettertypen staan in dist/assets/.
+Voor statische hosting is dist/ de hoofdmap van de website.

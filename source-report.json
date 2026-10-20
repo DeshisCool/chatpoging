@@ -1,0 +1,92 @@
+{
+  "pages": [
+    {
+      "slug": "",
+      "chars": 1814
+    },
+    {
+      "slug": "handreiking",
+      "chars": 3240
+    },
+    {
+      "slug": "1-bewustwording-en-organisatie",
+      "chars": 5052
+    },
+    {
+      "slug": "2-integriteit-veilige-werkomgeving",
+      "chars": 5359
+    },
+    {
+      "slug": "3-veilige-publieke-taak",
+      "chars": 3659
+    },
+    {
+      "slug": "4-informatiepositie-informatiebeveiliging",
+      "chars": 6475
+    },
+    {
+      "slug": "5-beleid-en-handhaving",
+      "chars": 7050
+    },
+    {
+      "slug": "6-communicatie",
+      "chars": 1929
+    },
+    {
+      "slug": "checklist",
+      "chars": 55
+    },
+    {
+      "slug": "productenoverzicht",
+      "chars": 321
+    },
+    {
+      "slug": "bewustwording-organisatie",
+      "chars": 2429
+    },
+    {
+      "slug": "integriteit-veilige-werkomgeving",
+      "chars": 2599
+    },
+    {
+      "slug": "veilige-publieke-taak",
+      "chars": 592
+    },
+    {
+      "slug": "informatiepositie-informatiebeveiliging",
+      "chars": 2205
+    },
+    {
+      "slug": "beleid-handhaving",
+      "chars": 573
+    },
+    {
+      "slug": "communicatie",
+      "chars": 778
+    },
+    {
+      "slug": "contact",
+      "chars": 188
+    },
+    {
+      "slug": "cc-by-nc-nd-4-0-akte",
+      "chars": 1480
+    },
+    {
+      "slug": "proclaimer",
+      "chars": 256
+    },
+    {
+      "slug": "privacy-policy",
+      "chars": 4294
+    },
+    {
+      "slug": "klachten",
+      "chars": 327
+    }
+  ],
+  "assets": {
+    "https://limburgsenorm.nl/wp-content/uploads/2023/10/fitte-piramide-1024x512.png": "/assets/fitte-piramide-1024x512.png"
+  },
+  "issues": []
+}
